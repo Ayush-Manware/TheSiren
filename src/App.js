@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Navbar from "./navbar/Navbar";
+import Home from "./navbar/Home"
+import Bollywood from "./navbar/Bollywood"
+import Technology from "./navbar/Technology"
+import Hollywood from "./navbar/Hollywood"
+import Fitness from "./navbar/Fitness"
+import Food from "./navbar/Food"
+import Logo from "./logo/Logo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Logo />
+      <Navbar />
+      <Routes>
+        <Route path={"/"} element={<Home />} />
+        <Route path={"/Bollywood"} element={<Bollywood />} />
+        <Route path={"/Technology"} element={<Technology />} />
+        <Route path={"/Hollywood"} element={<Hollywood />} />
+        <Route path={"/Fitness"} element={<Fitness />} />
+        <Route path={"/Food"} element={<Food />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
+  
 export default App;
