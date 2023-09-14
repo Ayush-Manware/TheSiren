@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Merriweather&family=Montserrat:wght@100;200&family=Pacifico&family=Playfair+Display:wght@500&family=Tilt+Prism&family=Ysabeau+Infant&display=swap');
+
 *{
   margin: 0px;
   padding: 0px;
+}
+
+body{
+  /* font-family: 'Merriweather', serif; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Pacifico', cursive; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Ysabeau Infant', sans-serif; */
 }
 
 :root{
@@ -13,12 +23,12 @@
   justify-content: center;
   align-items: center;
   padding: 1vw;
+  font-family: 'Lilita One', cursive; 
 }
 
 .the{
   rotate: 270deg;
   text-align: left;
-  /* border: 1px solid gray; */
   font-size: 2vw;
 }
 
@@ -27,12 +37,14 @@
 }
 
 .siren{
-  font-size: 3vw;
-  /* border: 1px solid gray; */
+  font-size: 3vw;  
+  text-decoration: underline;
 }
 
 .siren::first-letter{
   font-size: 4vw;
+  font-family: 'Tilt Prism', cursive;
+  padding: 0px 5px;
 }
 
 .navbar{

@@ -9,12 +9,14 @@ import Hollywood from "./navbar/Hollywood"
 import Fitness from "./navbar/Fitness"
 import Food from "./navbar/Food"
 import Logo from "./logo/Logo";
+import ContextApi from "./contextapi/Store";
 
 function App() {
   return (
     <BrowserRouter>
       <Logo />
       <Navbar />
+      <ContextApi>
       <Routes>
         <Route path={"/"} element={<Home />} />
         <Route path={"/Bollywood"} element={<Bollywood />} />
@@ -23,6 +25,7 @@ function App() {
         <Route path={"/Fitness"} element={<Fitness />} />
         <Route path={"/Food"} element={<Food />} />
       </Routes>
+      </ContextApi>
     </BrowserRouter>
   );
 }
