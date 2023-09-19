@@ -17,10 +17,10 @@ const ContextApi = (props) => {
     {
       id: 2,
       category: "Bollywood",
-      name: "Haddi",
+      name: "Friday Night Plan",
       image:
-        "https://assets.gadgets360cdn.com/pricee/assets/product/202308/haddi1_1691495050.jpg?downsize=215:301",
-      text: "Haddi is a crime thriller movie or web series1234that stars Nawazuddin Siddiqui as a transgender rookie named Haddi134. Haddi joins a gang of transgenders in Delhi and becomes a ruthless criminal123. She is on a mission to exact revenge from those who destroyed her life2, but she also has dark secrets and a shady business that could expose her2. The movie or web series is directed by Akshat Ajay Sharma and produced by Zee Studios and Anandita Studios14.",
+        "https://th.bing.com/th/id/OIP.5fXQoHdpgvbvDEiz0A2lEgHaEK?w=314&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+      text: "Friday Night Plan is a teen comedy about two brothers who sneak out to a party while their mother is away123. The brothers are very different: one is a nerd and the other is a prankster4. They have to overcome their conflicts and work together to avoid getting caught and missing the fun123. The film stars Amrith Jayan, Babil Khan, and Juhi Chawla4.",
     },
     {
       id: 3,
@@ -33,11 +33,12 @@ const ContextApi = (props) => {
     {
       id: 4,
       category: "Bollywood",
-      name: "Friday Night Plan",
+      name: "Haddi",
       image:
-        "https://th.bing.com/th/id/OIP.5fXQoHdpgvbvDEiz0A2lEgHaEK?w=314&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
-      text: "Friday Night Plan is a teen comedy about two brothers who sneak out to a party while their mother is away123. The brothers are very different: one is a nerd and the other is a prankster4. They have to overcome their conflicts and work together to avoid getting caught and missing the fun123. The film stars Amrith Jayan, Babil Khan, and Juhi Chawla4.",
+        "https://assets.gadgets360cdn.com/pricee/assets/product/202308/haddi1_1691495050.jpg?downsize=215:301",
+      text: "Haddi is a crime thriller movie or web series1234that stars Nawazuddin Siddiqui as a transgender rookie named Haddi134. Haddi joins a gang of transgenders in Delhi and becomes a ruthless criminal123. She is on a mission to exact revenge from those who destroyed her life2, but she also has dark secrets and a shady business that could expose her2. The movie or web series is directed by Akshat Ajay Sharma and produced by Zee Studios and Anandita Studios14.",
     },
+   
     {
       id: 5,
       category: "Bollywood",
@@ -357,17 +358,17 @@ const ContextApi = (props) => {
     },
     {
       id: 44,
-      name: "Burger",
-      category: "Food",
-      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2VyfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60g",
-      text: "The term burger can also be applied to the meat patty on its own, especially in the United Kingdom, where the term patty is rarely used or can even refer to ground beef. Since the term hamburger usually implies beef, for clarity burger may be prefixed with the type of meat or meat substitute used, as in beef burger, turkey burger, bison burger, portobello burger, or veggie burger. In many English-speaking countries outside the United States, including the United Kingdom.",
-    },
-    {
-      id: 45,
       name: "Tacos",
       category: "Food",
       image: "https://images.unsplash.com/photo-1562059390-a761a084768e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRhY29zfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60",
       text: "Traditionally, tacos are filled with a variety of filling such as beef, chicken, fish, pork, cheese, lettuce, onions, guacamole, and salsa. Sauces can also be added to tacos ranging from salsa to hot sauces like Tapatío. People use many different combinations of foods to build the taco, so it is very versatile.",
+    },
+    {
+      id: 45,
+      name: "Burger",
+      category: "Food",
+      image: "https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2VyfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60g",
+      text: "The term burger can also be applied to the meat patty on its own, especially in the United Kingdom, where the term patty is rarely used or can even refer to ground beef. Since the term hamburger usually implies beef, for clarity burger may be prefixed with the type of meat or meat substitute used, as in beef burger, turkey burger, bison burger, portobello burger, or veggie burger. In many English-speaking countries outside the United States, including the United Kingdom.",
     },
     {
       id: 46,
