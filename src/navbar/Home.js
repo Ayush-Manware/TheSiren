@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { Store } from "../contextapi/Store";
-import { use } from "../contextapi/Store";
-import { NavLink } from "react-router-dom";
+import { Link , NavLink } from "react-router-dom";
 import Footer from "../footer/Footer";
 
 function Home() {
@@ -48,7 +47,7 @@ function Home() {
         <div className="homeLatestArticle">
           <h1 className="homeLatest">Latest Article</h1>
           <div className="homeLatestDivContainer">
-            <div className="homeLatestDiv">
+            <div className="homeLatestDiv bollywoodLeftCard">
               {data
                 .filter((item) => item.id >= 11 && item.id <= 15)
                 .map((item, index) => {
@@ -85,7 +84,7 @@ function Home() {
             <h1 className="topPostHeading">Top Post</h1>
             <div className="homeTopPostDivContainer">
               <div className="topPostFristDiv">&nbsp;</div>
-              <div className="topPostBelowContainer">
+              <div className="topPostBelowContainer bollywoodLeftCard">
                 {data
                   .filter((item) => item.id >= 41 && item.id <= 44)
                   .map((item, index) => {

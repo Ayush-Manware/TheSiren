@@ -33,12 +33,11 @@ const ContextApi = (props) => {
     {
       id: 4,
       category: "Bollywood",
-      name: "Haddi",
+      name: "Thackery",
       image:
-        "https://assets.gadgets360cdn.com/pricee/assets/product/202308/haddi1_1691495050.jpg?downsize=215:301",
-      text: "Haddi is a crime thriller movie or web series1234that stars Nawazuddin Siddiqui as a transgender rookie named Haddi134. Haddi joins a gang of transgenders in Delhi and becomes a ruthless criminal123. She is on a mission to exact revenge from those who destroyed her life2, but she also has dark secrets and a shady business that could expose her2. The movie or web series is directed by Akshat Ajay Sharma and produced by Zee Studios and Anandita Studios14.",
+        "https://th.bing.com/th/id/OIP.uxltnaUzkmIkJFM00vq2FQHaEl?w=279&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+      text: "Thackeray received mixed reviews from critics.[12] Times of India gave the film 3 stars out of 5 and states: While the honesty is commendable, it comes across that the lead characters political motivations lack clarity. Perhaps a more seasoned writer, could have fleshed out Thackerays characters and eccentricities a lot better. But, its Nawaz nonchalant performance that overshadows the flaws and leaves a lasting impact.",
     },
-   
     {
       id: 5,
       category: "Bollywood",
@@ -82,11 +81,12 @@ const ContextApi = (props) => {
     {
       id: 10,
       category: "Bollywood",
-      name: "Thackery",
+      name: "Haddi",
       image:
-        "https://th.bing.com/th/id/OIP.uxltnaUzkmIkJFM00vq2FQHaEl?w=279&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
-      text: "Thackeray received mixed reviews from critics.[12] Times of India gave the film 3 stars out of 5 and states: While the honesty is commendable, it comes across that the lead characters political motivations lack clarity. Perhaps a more seasoned writer, could have fleshed out Thackerays characters and eccentricities a lot better. But, its Nawaz nonchalant performance that overshadows the flaws and leaves a lasting impact.",
+        "https://assets.gadgets360cdn.com/pricee/assets/product/202308/haddi1_1691495050.jpg?downsize=215:301",
+      text: "Haddi is a crime thriller movie or web series1234that stars Nawazuddin Siddiqui as a transgender rookie named Haddi134. Haddi joins a gang of transgenders in Delhi and becomes a ruthless criminal123. She is on a mission to exact revenge from those who destroyed her life2, but she also has dark secrets and a shady business that could expose her2. The movie or web series is directed by Akshat Ajay Sharma and produced by Zee Studios and Anandita Studios14.",
     },
+ 
 
     // Technology
     {

@@ -11,6 +11,29 @@ a{
   text-decoration: none;
 }
 
+a h2 {
+  color: rgb(254, 0, 0);
+  font-family: 'Merriweather', serif;
+  padding: 3px 0px;
+  border-bottom: 2px solid red;
+  width: max-content;
+  font-size: 1.5vw;
+  margin: 3px 0px;
+}
+
+a p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2vw;
+}
+
+h1, h2{
+  font-family: 'Merriweather', serif;
+}
+
+a p{
+  color: rgba(0, 0, 0, 0.947);
+}
+
 body{
   /* font-family: 'Merriweather', serif; */
   /* font-family: 'Montserrat', sans-serif; */
@@ -20,6 +43,7 @@ body{
 :root{
   --shadow: rgba(0, 0, 0, 0.466);
   --black: black;
+  --hoverColor: rgba(255, 5, 5, 0.323);
 }
 
 .logo{
@@ -73,7 +97,7 @@ body{
 }
 
 .homeContainer{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 2vw; 
 }
 
@@ -157,7 +181,7 @@ body{
 .homeLatestDiv{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  /* gap: 20px; */
   justify-content: space-between;
   margin: 10px auto;
 }
@@ -197,7 +221,7 @@ body{
 }
 
 .homeTopPost{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .homeTopPostDivContainer{
@@ -207,7 +231,7 @@ body{
 
 .topPostHeading{
   font-size: 4vw;
-  text-align: right;
+  text-align: center;
   padding: 10px;
 }
 
@@ -260,4 +284,81 @@ body{
   font-size: 4vw;
   font-family: 'Tilt Prism', cursive;
   padding: 0px 5px;
+}
+
+.bollywoodContainer{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 2vw;
+}
+
+.bollywoodRightTitle{
+  font-size: 3.5vw;
+}
+
+.bollywoodRightTitle::first-letter{
+  font-size: 4.5vw;
+  color: red;
+}
+
+.bollywoodLeftCard a{
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+  margin: 1vw 0px;
+  border-radius: 3px;
+  transition: all 0.2s linear;
+}
+
+.bollywoodLeftCard a:hover {
+  scale: 1.1;
+  background-color: var(--hoverColor);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.384);
+  color: white;
+} 
+
+.bollywoodLeftCardImage{
+  width: 20vw;
+}
+
+.bollywoodLeftCardText{
+  padding: 10px;
+}
+
+.bollywoodRightTitle{
+  font-size: 3.5vw;
+}
+
+.bollywoodRightTitle::first-letter{
+  font-size: 4.5vw;
+  color: red;
+}
+
+.bollywoodRightCard a{
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+  margin: 1vw 0px;
+  border-radius: 3px;
+  transition: all 0.2s linear;
+}
+
+.bollywoodRightCard a:hover {
+  scale: 1.1;
+  background-color: var(--hoverColor);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.384);
+  color: white;
+} 
+
+.bollywoodRightCardImage{
+  width: 20vw;
+}
+
+.bollywoodRightCardText{
+  padding: 10px;
 }
